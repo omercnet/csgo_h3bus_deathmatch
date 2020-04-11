@@ -1,0 +1,32 @@
+"Games"
+{
+    "csgo"
+    {
+        "Offsets"
+        {
+            "EntSelectSpawnPoint"
+            {
+                "windows"   "439"
+                "linux"     "440"
+            }
+            
+            "IsTriggered"
+            {
+                "windows"   "73"
+                "linux"     "74"
+            }
+            
+            "NetworkStateChanged_m_iAmmo"
+            {
+                "windows"   "350"
+                "linux"     "352"
+            }
+            
+            "DoImpactEffect"
+            {
+                "windows"   "118"
+                "linux"     "119"
+            }
+        }
+    }
+}

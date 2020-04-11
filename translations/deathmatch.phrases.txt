@@ -1,0 +1,227 @@
+"Phrases"
+{
+    "for killing an enemy"
+    {
+        "en"    "for killing an enemy"
+        "fr"    "pour avoir frag"
+		"de"	"für das töten eines Gegners"
+		"ru"	"за убийство противника"
+    }
+    
+    "with knife"
+    {
+        "en"    "with knife"
+        "fr"    "au couteau"
+		"de"	"mit Messer"
+		"ru"	"ножом"
+    }
+    
+    "with nade"
+    {
+        "en"    "with nade"
+        "fr"    "à la grenade"
+		"de"	"mit Granate"
+		"ru"	"гранатой"
+    }
+    
+    "with headshot"
+    {
+        "en"    "with headshot"
+        "fr"    "à la tête"
+		"de"	"durch Kopfschuss"
+		"ru"	"выстрелом в голову"
+    }
+    
+    "Helmet"
+    {
+        "en"    "Helmet"
+        "fr"    "Casque"
+		"de"	"Helm"
+		"ru"	"шлем"
+    }
+    
+    "Kevlar"
+    {
+        "en"    "Kevlar"
+        "fr"    "Kevlar"
+		"de"	"Kevlar"
+		"ru"	"брони"
+    }
+    
+    "You'll get your new weapons on next spawn"
+    {
+        "en"    "You'll get your new weapons on next spawn"
+        "fr"    "Tu aura tes nouvelles armes au prochain spawn"
+		"de"	"Du bekommst deine neuen Waffen im nächsten Leben"
+		"ru"	"ты получишь новое оружие при следующем возрождении"
+    }
+    
+    "Weapons Shop"
+    {
+        "en"    "Weapons Shop"
+        "fr"    "Armurerie"
+		"de"	"Waffen Shop"
+		"ru"	"Магазин оружия"
+    }
+    
+    "New weapons"
+    {
+        "en"    "New weapons"
+        "fr"    "Nouvelles armes"
+		"de"	"Neue Waffen"
+		"ru"	"Новое оружие"
+    }
+    
+    "Random weapons"
+    {
+        "en"    "Random weapons"
+        "fr"    "Armes aléatoires"
+		"de"	"Zufalls Waffen"
+		"ru"	"Случайное оружие"
+    }
+    
+    "Primary Weapons"
+    {
+        "en"    "Primary Weapons"
+        "fr"    "Armes principales"
+		"de"	"Primär Waffen"
+		"ru"	"Основное Оружие"
+    }
+    
+    "Secondary Weapons"
+    {
+        "en"    "Secondary Weapons"
+        "fr"    "Armes secondaires"
+		"de"	"Sekundär Waffen"
+		"ru"	"Дополнительное оружие"
+    }
+    
+    
+    "The armory is disabled"
+    {
+        "en"    "The armory is disabled"
+        "fr"    "L'armurerie est désactivée"
+		"de"	"Die Waffenkammer ist deaktiviert"
+		"ru"	"Броня отключена"
+    }
+    
+    "No weapons available"
+    {
+        "en"    "No weapons available"
+        "fr"    "Auncune arme disponible"
+		"de"	"Keine Waffen verfügbar"
+		"ru"	"Оружие недоступно"
+    }
+    
+    "available"
+    {
+        "en"    "available"
+        "fr"    "disponible(s)"
+		"de"	"verfügbar"
+		"ru"	"доступно"
+    }
+    
+    "in your team"
+    {
+        "en"    "in your team"
+        "fr"    "dans ton équipe"
+		"de"	"in deinem Team"
+		"ru"	"в вашей команде"
+    }
+    
+    "Loaded game mode"
+    {
+        "#format"	"{1:s}"
+        "en"    "Loaded Game Mode {1}"
+        "fr"    "Le mode de jeu {1} a été chargé"
+		"de"	"Game Mode {1} wurde geladen"
+		"ru"	"Загружен конфиг {1}"
+    }
+    
+    "Loaded game mode for next round"
+    {
+        "#format"	"{1:s}"
+        "en"    "Game Mode {1} will be loaded for next round"
+        "fr"    "Le mode de jeu {1} sera chargé au prochain round"
+		"de"	"Game Mode {1} wird in der nächsten Runde geladen"
+		"ru"	"В следующем раунде будет загружен конфиг {1}"
+    }
+    
+    "Weapon removed because limited"
+    {
+        "#format"	"{1:s},{2:d}"
+        "en"    "Your {1} has been removed has it has been limited to {2} per team"
+        "fr"    "Ton {1} a été supprimé car il est limité à {2} par équipe"
+		"de"	"Deine {1} wurde entfernt weil limitiert auf {2} pro Team"
+		"ru"	"Твой {1} изъят из-за ограничений в {2} штуки на команду"
+    }
+    
+    "Wait"
+    {
+        "en"    "Wait"
+        "fr"    "Attente"
+		"de"	"Warten"
+		"ru"	"Подожди"
+    }
+    
+    "Client in wait line"
+    {
+        "#format"	"{1:d}"
+        "en"    "{1} player in wait line"
+        "fr"    "{1} joueur dans la file d'attente"
+        "de"    "{1} Spieler in der Warteschlange"
+		"ru"	"{1} игрок в очереди" 
+    }
+    
+    "Exit wait or wait"
+    {
+        "en"    "Leave wait line or Wait"
+        "fr"    "Quitter la file d'attente ou Attendez"
+		"de"	"Verlasse die Warteschlange oder warte etwas"
+		"ru"	"Покиньте очередь или подождите"
+    }
+    
+    "Exit wait"
+    {
+        "en"    "Leave wait line"
+        "fr"    "Quitter la file d'attente"
+		"de"	"Verlasse die Warteschlange"
+		"ru"	"Покинуть очередь"
+    }
+    
+    "Weapon awarded"
+    {
+        "#format"	"{1:s}"
+        "en"    "You've been given your awaited {1}."
+        "fr"    "Tu as obtenu cet {1} tant attendu."
+        "de"	"Du hast deine {1} bereits erhalten."
+		"ru"    "ты получил оружие из очереди {1}.
+    }
+    
+    "Weapon delayed"
+    {
+        "#format"	"{1:s},{2:s}"
+        "en"    "You will get your {1} in {2}."
+        "fr"    "Tu aura ton {1} dans {2}."
+        "de"	"Du wirst deine {1} in {2} erhalten."
+		"ru"    "ты получил свой {1} в {2}."
+    }
+    
+    "Weapon removal pending"
+    {
+        "#format"	"{1:s},{2:s}"
+        "en"    "You {1} will be given to another player in {2}."
+        "fr"    "Ton {1} va être donné à un autre joueur dans {2}."
+        "de"	"Deine {1} wird dem nächsten Spieler gegeben in {2}."
+		"ru"    "Твое {1} было отдано другому игроку {2}."
+    }
+    
+    "Exited wait line"
+    {
+        "#format"	"{1:s}"
+        "en"    "You are no longer waiting for {1}."
+        "fr"    "Tu n'es plus dans la file d'attente pour {1}."
+        "de"	"Du wartest nicht mehr auf {1}."
+		"ru"	"Смысла ждать {1} совсем нет."
+    }
+}
