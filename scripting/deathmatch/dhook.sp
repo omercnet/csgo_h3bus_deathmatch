@@ -87,7 +87,7 @@ public MRESReturn:dhook_EntSelectSpawnPoint(client, Handle:hReturn)
 {
     decl spawnEntity;
     
-    if((spawnEntity = spawns_SelectSpawnPoint(client)) > 0)
+    if((spawnEntity = spawns_SelectSpawnPoint(client)) != -1)
     {
         DHookSetReturn(hReturn, spawnEntity);
         

@@ -12,9 +12,9 @@
 
 #pragma semicolon 1
 
-#define VERSION "0.13.8"
+#define VERSION "0.13.10"
 
-#define UPDATE_URL "http://sourcemodplugin.h3bus.fr/deathmatch/updatefile.txt"
+//#define UPDATE_URL "http://sourcemodplugin.h3bus.fr/deathmatch/updatefile.txt"
 
 #define DMG_HEADSHOT (1 << 30)
 
@@ -80,11 +80,12 @@ public APLRes:AskPluginLoad2(Handle:myself, bool:late, String:error[], err_max)
 
 public OnPluginStart()
 {
+#if defined UPDATE_URL
     if (LibraryExists("updater"))
     {
         Updater_AddPlugin(UPDATE_URL);
     }
-    
+#endif
     LoadTranslations("deathmatch.phrases");
     
     config_Init();
@@ -148,11 +149,12 @@ public OnPluginEnd()
 
 public OnLibraryAdded(const String:name[])
 {
+#if defined UPDATE_URL
     if (StrEqual(name, "updater"))
     {
         Updater_AddPlugin(UPDATE_URL);
     }
-    
+#endif
     rankdisplay_OnLibraryAdded(name);
     dhook_OnLibraryAdded(name);
 }
