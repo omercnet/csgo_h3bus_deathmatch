@@ -4,7 +4,6 @@
 #include <cstrike>
 #include <lang>
 #undef REQUIRE_PLUGIN
-#include <updater>
 #define REQUIRE_PLUGIN
 #undef REQUIRE_EXTENSIONS
 #include <dhooks>
@@ -12,9 +11,7 @@
 
 #pragma semicolon 1
 
-#define VERSION "0.13.10"
-
-//#define UPDATE_URL "http://sourcemodplugin.h3bus.fr/deathmatch/updatefile.txt"
+#define VERSION "0.13.11"
 
 #define DMG_HEADSHOT (1 << 30)
 
@@ -80,12 +77,6 @@ public APLRes:AskPluginLoad2(Handle:myself, bool:late, String:error[], err_max)
 
 public OnPluginStart()
 {
-#if defined UPDATE_URL
-    if (LibraryExists("updater"))
-    {
-        Updater_AddPlugin(UPDATE_URL);
-    }
-#endif
     LoadTranslations("deathmatch.phrases");
     
     config_Init();
